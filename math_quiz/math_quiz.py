@@ -43,7 +43,6 @@ def elementary_operation_calculations(num1, num2, operator):
         result = num1 + num2   # bug fixed
     elif operator == '-': 
         result = num1 - num2   # bug fixed
-    
     else: 
         result = num1 * num2
     return calculation, result
